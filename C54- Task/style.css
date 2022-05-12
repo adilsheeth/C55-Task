@@ -1,0 +1,36 @@
+/* External CSS Styling */
+
+p{ /*CSS Element Selector */
+    color: blue;
+    font-size: large;
+
+}
+
+body{
+    background-image: url("./Assets/background.jpg");
+}
+
+.header{
+    /*background-color: bisque;*/
+}
+
+.items:hover img{
+    opacity: 0.33;
+    
+}
+
+.items h4{
+    opacity: 0;
+}
+
+.items:hover h4{
+    opacity: 1;
+}
+
+/* footer{ */
+    /*background-color: blanchedalmond;*/
+/* } */
+
+ *{ 
+    border: solid; 
+ } 

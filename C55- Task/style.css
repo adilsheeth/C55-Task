@@ -1,0 +1,48 @@
+/* External CSS Styling */
+
+p{ /*CSS Element Selector */
+    color: blue;
+    font-size: large;
+
+}
+
+.header{
+    background-color:blueviolet;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+footer{
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.grid{
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+
+body{
+    background-image: url("./Assets/background.jpg");
+}
+
+.items:hover img{
+    opacity: 0.33;
+    
+}
+
+.items h4{
+    opacity: 0;
+}
+
+.items:hover h4{
+    opacity: 1;
+}
